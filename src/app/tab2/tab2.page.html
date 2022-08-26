@@ -1,17 +1,148 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Bebidas
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+<ion-content [fullscreen]="true">
+  <ion-searchbar color="dark" placeholder="digite aqui"></ion-searchbar>
+  <list-header></list-header>
+
+  <ion-grid>
+    <ion-row>
+
+      <ion-col size="6">
+       
+        <ion-card>
+         
+          <img src="https://courier-images-prod.imgix.net/produc_variant/00009408_58369b19-620e-47e6-a6c6-55438e862a74.jpg?auto=compress,format&fit=max&w=undefined&h=undefined&dpr=2">
+
+          <ion-item>
+            <ion-label>Askov</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>R$ 12,99</ion-label>
+            <ion-button>
+              <ion-icon slot="icon-only" name="cart"></ion-icon>
+            </ion-button>
+          </ion-item>
+        </ion-card>
+
+        <ion-card>
+          <img src="https://vinhais.com.br/Produtos/779807823587.jpg">
+
+          <ion-item>
+            <ion-label>Vinho cabernet</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>R$ 29,90</ion-label>
+            <ion-button>
+              <ion-icon slot="icon-only" name="cart"></ion-icon>
+            </ion-button>
+          </ion-item>
+        </ion-card>
+
+      </ion-col> 
+
+      <ion-col size="6">
+
+        <ion-card>
+          <img src="https://http2.mlstatic.com/D_NQ_NP_699120-MLA43881001672_102020-O.jpg">
+
+          <ion-item>
+            <ion-label>51 Ice</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>R$ 5,69</ion-label>
+            <ion-button>
+              <ion-icon slot="icon-only" name="cart"></ion-icon>
+            </ion-button>
+          </ion-item>
+        </ion-card>
+ 
+        <ion-card>
+          <img src="https://images-americanas.b2w.io/produtos/5060887387/imagens/dom-scott-coquetel-bebida-alcoolica-whisky-drink-vidro-900ml/5060887387_1_large.jpg">
+          <ion-item>
+            <ion-label>Whisky Don Scott</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>R$ 55,80</ion-label>
+            <ion-button>
+              <ion-icon slot="icon-only" name="cart"></ion-icon>
+            </ion-button>
+          </ion-item>
+        </ion-card>
+       
+      </ion-col> 
+     
+
+      <ion-col size="6">
+       
+        <ion-card>
+         
+          <img src="https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/14912/medium/refrigerante-coca-cola-2l_76046.png">
+          <ion-item>
+            <ion-label>Coca Cola</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>R$ 7,99</ion-label>
+            <ion-button>
+              <ion-icon slot="icon-only" name="cart"></ion-icon>
+            </ion-button>
+          </ion-item>
+        </ion-card>
+
+        <ion-card>
+          <img src="https://images-submarino.b2w.io/produtos/5059840864/imagens/refrigerante-guarana-antarctica-lata-350ml/5059840864_1_large.jpg">
+
+          <ion-item>
+            <ion-label>Guarana Antarctica</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>R$ 3,19</ion-label>
+            <ion-button>
+              <ion-icon slot="icon-only" name="cart"></ion-icon>
+            </ion-button>
+          </ion-item>
+        </ion-card>
+
+      </ion-col> 
+
+      <ion-col size="6">
+       
+        <ion-card>
+         
+          <img src="https://http2.mlstatic.com/D_NQ_NP_659368-MLA44374991835_122020-O.jpg">
+          <ion-item>
+            <ion-label>Suco Aurora</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>R$ 14,49</ion-label>
+            <ion-button>
+              <ion-icon slot="icon-only" name="cart"></ion-icon>
+            </ion-button>
+          </ion-item>
+        </ion-card>
+
+        <ion-card>
+          <img src="https://imgs.casasbahia.com.br/1511383035/1xg.jpg?imwidth=500">
+
+          <ion-item>
+            <ion-label>Suco Natural One</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>R$ 6,99</ion-label>
+            <ion-button>
+              <ion-icon slot="icon-only" name="cart"></ion-icon>
+            </ion-button>
+          </ion-item>
+        </ion-card>
+
+      </ion-col>         
+
+    </ion-row>
+  </ion-grid>
 </ion-content>
