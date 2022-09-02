@@ -3,6 +3,31 @@
 
 /** Ionic CSS Variables **/
 :root {
+    
+  /** mostarda **/
+  --ion-color-mostarda: #ecb418;
+	--ion-color-mostarda-rgb: 236,180,24;
+	--ion-color-mostarda-contrast: #000000;
+	--ion-color-mostarda-contrast-rgb: 0,0,0;
+	--ion-color-mostarda-shade: #d09e15;
+	--ion-color-mostarda-tint: #eebc2f;
+
+  /** cinzinha **/
+  --ion-color-cinzinha: #cccccc;
+	--ion-color-cinzinha-rgb: 204,204,204;
+	--ion-color-cinzinha-contrast: #000000;
+	--ion-color-cinzinha-contrast-rgb: 0,0,0;
+	--ion-color-cinzinha-shade: #b4b4b4;
+	--ion-color-cinzinha-tint: #d1d1d1;
+
+  /** mengao **/
+  --ion-color-mengao: #660f0f;
+	--ion-color-mengao-rgb: 102,15,15;
+	--ion-color-mengao-contrast: #ffffff;
+	--ion-color-mengao-contrast-rgb: 255,255,255;
+	--ion-color-mengao-shade: #5a0d0d;
+	--ion-color-mengao-tint: #752727;
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -233,4 +258,32 @@
 
     --ion-card-background: #1e1e1e;
   }
+}
+
+.ion-color-mengao {
+	--ion-color-base: var(--ion-color-mengao);
+	--ion-color-base-rgb: var(--ion-color-mengao-rgb);
+	--ion-color-contrast: var(--ion-color-mengao-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-mengao-contrast-rgb);
+	--ion-color-shade: var(--ion-color-mengao-shade);
+	--ion-color-tint: var(--ion-color-mengao-tint);
+}
+
+
+.ion-color-cinzinha {
+	--ion-color-base: var(--ion-color-cinzinha);
+	--ion-color-base-rgb: var(--ion-color-cinzinha-rgb);
+	--ion-color-contrast: var(--ion-color-cinzinha-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-cinzinha-contrast-rgb);
+	--ion-color-shade: var(--ion-color-cinzinha-shade);
+	--ion-color-tint: var(--ion-color-cinzinha-tint);
+}
+
+.ion-color-mostarda {
+	--ion-color-base: var(--ion-color-mostarda);
+	--ion-color-base-rgb: var(--ion-color-mostarda-rgb);
+	--ion-color-contrast: var(--ion-color-mostarda-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-mostarda-contrast-rgb);
+	--ion-color-shade: var(--ion-color-mostarda-shade);
+	--ion-color-tint: var(--ion-color-mostarda-tint);
 }
